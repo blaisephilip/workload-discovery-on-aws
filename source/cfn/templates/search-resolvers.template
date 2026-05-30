@@ -130,7 +130,7 @@ Resources:
           - !Ref PrivateSubnet0
           - !Ref PrivateSubnet1
       MemorySize: 1024
-      ReservedConcurrentExecutions: 50
+      ReservedConcurrentExecutions: 10
       Environment:
         Variables:
           ES_REGION: !Sub ${AWS::Region}
